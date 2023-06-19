@@ -1,0 +1,22 @@
+Data Analysis On Harry Potter Franchise #dataanalytics #powerbi #dax #sql #datavisualization #harrypotter #datamodeling #powerquery #powerpivot #datalovers 
+
+
+About the project:
+Includes all franchise titles, IMDB ratings, Box Office, Budgets, regional analysis, etc.
+
+Objectives:
+To provide insightson the performance of each part of the franchise individually and as a whole.
+How well they performance in monitory terms, ratings & regional success.
+
+Data Description:
+Source file downloaded from Maven Analystics website. Data included 1 fact and 2 dimension tables.
+Dimension tables are region and earnings (once you see the file you'll know why I had to create an earnings dimension)
+
+Insights:
+Most successfull part of the franchise was the last part The Deathly Hollows 2 with regards to both IMDB ratings and earnings.
+
+Challenges:
+To have changes on source file reflect on your running Power BI report/dashboard, open advanced editor on power query and make sure number of columns is correct and matching your actual data.
+If you are not able to change your data type from currency/accoutancy to whole number on Power BI, right click and change the settings on locale.
+
+DAX usage: Aggregate measures and additional calculated columns where created using DAX
